@@ -58,8 +58,6 @@ function productId() {
 
 		]).then(function(answer) {
 
-			//console.log("Answer: ", answer);
-
 			var userId = answer.id;
 			console.log("Chosen item id: " , userId);
 
